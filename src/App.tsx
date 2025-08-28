@@ -10,6 +10,7 @@ import MandiLocatorPage from './pages/MandiLocatorPage';
 import AgroMandiLocatorPage from './pages/AgroMandiLocatorPage';
 import FarmerProfilePage from './pages/FarmerProfilePage';
 import TraderProfilePage from './pages/TraderProfilePage';
+import APIDocumentationPage from './pages/APIDocumentationPage';
 import { AuthProvider } from './context/AuthContext';
 import './App.css';
 
@@ -30,6 +31,7 @@ function App() {
               <Route path="/agro-mandi-locator" element={<AgroMandiLocatorPage />} />
               <Route path="/farmer-profile" element={<FarmerProfilePage />} />
               <Route path="/trader-profile" element={<TraderProfilePage />} />
+              <Route path="/api-documentation" element={<APIDocumentationPage />} />
             </Routes>
           </main>
           <Footer />

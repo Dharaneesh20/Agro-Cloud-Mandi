@@ -10,11 +10,31 @@ A modern, responsive React.js application for agricultural marketplace and price
 - **Location-based Registration**: State and district selection with coordinates
 - **Demo Credentials**: Quick testing with pre-configured accounts
 
-### 📊 Smart Price Recommendations
+### 📊 Smart Price Recommendations (Enhanced!)
 - **AI-Powered Predictions**: Price forecasting with confidence levels
+- **Market Comparison**: Interactive comparison across multiple mandis
+- **Price Difference Analysis**: Real-time price variations and savings calculator
+- **Grid & Table Views**: Switch between card view and comparison table
+- **Quality Indicators**: Premium, Standard, Basic quality classifications
 - **Market Trends**: Real-time trend analysis (up/down/stable)
 - **Historical Data**: Price history and pattern analysis
 - **Market Insights**: Weather, demand, and policy impact analysis
+
+### 🤖 AI-Powered Chatbot (NEW!)
+- **Google Gemini 1.5 Flash**: Advanced AI assistant for agricultural guidance
+- **Smart Navigation**: Platform feature explanation and guidance
+- **Agricultural Advice**: Crop cultivation, pest management, best practices
+- **Market Assistance**: Price guidance, trading advice, mandi recommendations
+- **Multi-language Support**: Primarily English with agricultural terminology
+- **Context Awareness**: Understands farming and trading contexts
+- **Doubt Clarification**: Instant answers to farming and platform questions
+
+### 📊 API Documentation (NEW!)
+- **Complete API Reference**: Comprehensive documentation for all endpoints
+- **Interactive Examples**: Code samples and request/response examples
+- **Authentication Guide**: JWT token implementation details
+- **Rate Limiting**: API usage limits and best practices
+- **Error Handling**: Common errors and troubleshooting guide
 
 ### 📍 Mandi Locator
 - **Location-based Search**: Find nearby mandis with distance calculation

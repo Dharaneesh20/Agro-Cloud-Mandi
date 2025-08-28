@@ -19,6 +19,29 @@ export default {
           800: '#166534',
           900: '#14532d',
         }
+      },
+      animation: {
+        'bounce': 'bounce 1s infinite',
+      },
+      keyframes: {
+        bounce: {
+          '0%, 100%': {
+            transform: 'translateY(-25%)',
+            animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)',
+          },
+          '50%': {
+            transform: 'translateY(0)',
+            animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
+          },
+        }
+      },
+      width: {
+        '60%': '60%',
+        '70%': '70%',
+        '75%': '75%',
+        '80%': '80%',
+        '85%': '85%',
+        '90%': '90%',
       }
     },
   },

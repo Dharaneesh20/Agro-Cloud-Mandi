@@ -1,0 +1,64 @@
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.app-header {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: all 0.3s ease;
+  animation: slideIn 0.5s ease-out;
+}
+
+.app-header.scrolled {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(248, 249, 250, 0.95);
+  backdrop-filter: blur(8px);
+}
+
+.app-main {
+  min-height: calc(100vh - 140px);
+  padding: 2rem 1rem;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.app-footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  animation: slideIn 0.5s ease-out;
+  transition: transform 0.3s ease;
+}
+
+.app-footer:hover {
+  transform: translateY(-2px);
+}
+
+/* Page transition animations */
+.page-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}

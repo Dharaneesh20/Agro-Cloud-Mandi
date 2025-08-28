@@ -2,6 +2,7 @@
 
 A modern, responsive React.js application for agricultural marketplace and price recommendations platform. This frontend provides smart recommendations for farmers and traders, ensuring fair market prices while considering proximity and market dynamics.
 
+<<<<<<< HEAD
 ## 🌟 Features
 
 ### 🔐 Authentication System
@@ -248,3 +249,7 @@ This project is created for educational and development purposes. Please ensure 
 **Built with ❤️ for farmers and traders** 🌾
 
 For questions or support, please refer to the documentation or create an issue in the repository.
+=======
+
+
+>>>>>>> d941ca8e21f6f73e6639c80f8f09982618ec9f8b

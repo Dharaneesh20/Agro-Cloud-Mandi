@@ -248,8 +248,9 @@ This project is created for educational and development purposes. Please ensure 
 
 **Built with ❤️ for farmers and traders** 🌾
 
-For questions or support, please refer to the documentation or create an issue in the repository.
+
 =======
+
 
 
 

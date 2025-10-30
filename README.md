@@ -234,6 +234,8 @@ To integrate with a real backend:
 
 ## 📄 License
 
+For questions or support, please refer to the documentation or create an issue in the repository.
+
 This project is created for educational and development purposes. Please ensure compliance with your organization's policies when using in production.
 
 ## 🤝 Contributing
@@ -250,6 +252,7 @@ This project is created for educational and development purposes. Please ensure 
 
 
 =======
+
 
 
 
